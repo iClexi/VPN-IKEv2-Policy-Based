@@ -1,5 +1,12 @@
 # VPN IPSec IKEv2 Policy-Based - Site-to-Site
 
+![Platform](https://img.shields.io/badge/Platform-Cisco%20IOS-blue)
+![Environment](https://img.shields.io/badge/Environment-GNS3%20%7C%20IOSvL2-orange)
+![VPN](https://img.shields.io/badge/VPN-IPSec%20IKEv2-success)
+![Design](https://img.shields.io/badge/Design-Policy%20Based-informational)
+![Use](https://img.shields.io/badge/Use-Controlled%20Lab-yellow)
+![Topic](https://img.shields.io/badge/Topic-Network%20Security-purple)
+
 **Estudiante:** Michael Robles  
 **Matrícula:** 20250845  
 **Tipo de VPN:** Site-to-Site punto a punto basada en políticas  
