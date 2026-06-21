@@ -47,23 +47,19 @@ VPN-IPSec-IKEv2-Policy-Based/
 │   ├── SW1.cfg
 │   ├── SW2.cfg
 │   ├── PC-A.vpcs
-│   ├── PC-B.vpcs
-│   └── all_devices_config.txt
-├── images/
-│   ├── 01_topologia.png
-│   ├── 02_r1_show_crypto_ikev2_sa.png
-│   ├── 03_r1_show_crypto_ipsec_sa_1.png
-│   ├── 04_r1_show_crypto_ipsec_sa_2.png
-│   ├── 05_r1_show_crypto_session.png
-│   ├── 06_r1_show_access_lists_acl_ikev2_policy.png
-│   ├── 07_r1_show_crypto_map.png
-│   └── 08_pc_a_ping_pc_b.png
-└── verification/
-    ├── verification_commands.txt
-    └── troubleshooting.md
+│   └── PC-B.vpcs
+└── images/
+    ├── 01_topologia.png
+    ├── 02_r1_show_crypto_ikev2_sa.png
+    ├── 03_r1_show_crypto_ipsec_sa_1.png
+    ├── 04_r1_show_crypto_ipsec_sa_2.png
+    ├── 05_r1_show_crypto_session.png
+    ├── 06_r1_show_access_lists_acl_ikev2_policy.png
+    ├── 07_r1_show_crypto_map.png
+    └── 08_pc_a_ping_pc_b.png
 ```
 
-Las configuraciones completas están dentro de la carpeta [`configs`](configs/). En este README se explican las partes principales y se muestran las evidencias de funcionamiento.
+Las configuraciones completas de cada equipo están dentro de la carpeta [`configs`](configs/). En este README se explican las partes principales, se muestran los comandos de verificación y se agregan las evidencias de funcionamiento.
 
 ---
 
@@ -359,9 +355,9 @@ Cuando PC-A hace ping hacia PC-B, ocurre lo siguiente:
 
 ## 12. Verificación de funcionamiento
 
-Los comandos usados para validar la VPN están en [`verification/verification_commands.txt`](verification/verification_commands.txt).
+Para validar la VPN, primero se generó tráfico real desde PC-A hacia PC-B. Esto es importante porque una VPN policy-based normalmente levanta cuando detecta tráfico interesante que coincide con la ACL.
 
-Primero se generó tráfico desde PC-A hacia PC-B:
+Primero se ejecutó este comando desde PC-A:
 
 ```bash
 ping 192.168.84.10
