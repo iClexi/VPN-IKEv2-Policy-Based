@@ -8,7 +8,8 @@
 
 
 **Repositorio GitHub:** https://github.com/iClexi/VPN-IKEv2-Policy-Based/blob/main/README.md  
-**Video demostrativo:** https://youtu.be/ueamM29DIdg
+**Video demostrativo:** https://youtu.be/ueamM29DIdg  
+**Documentación técnica profesional:** [docs/Documentacion Tecnica Profesional.pdf](docs/Documentacion%20Tecnica%20Profesional.pdf)
 
 ---
 
@@ -54,8 +55,8 @@ VPN-IKEv2-Policy-Based/
 │   ├── PC-A.vpcs
 │   └── PC-B.vpcs
 ├── docs/
-│   ├── MichaelRobles_20250845_IKEv2_Policy_Based_Documentacion.docx
-│   └── MichaelRobles_20250845_IKEv2_Policy_Based_Documentacion.pdf
+│   ├── Documentacion Tecnica Profesional.pdf
+│   └── MichaelRobles_20250845_IKEv2_Policy_Based_Documentacion.docx
 └── images/
     ├── 01_topologia.png
     ├── 02_r1_show_crypto_ikev2_sa.png
@@ -68,6 +69,8 @@ VPN-IKEv2-Policy-Based/
 ```
 
 Las configuraciones completas de cada equipo están dentro de la carpeta [`configs`](configs/). En este README se explican las partes principales, se muestran los comandos de verificación y se agregan las evidencias de funcionamiento.
+
+La documentación técnica profesional está disponible en [`docs/Documentacion Tecnica Profesional.pdf`](docs/Documentacion%20Tecnica%20Profesional.pdf).
 
 El archivo [`enlaces.txt`](enlaces.txt) contiene el enlace del repositorio en GitHub y el enlace del video demostrativo en YouTube.
 
