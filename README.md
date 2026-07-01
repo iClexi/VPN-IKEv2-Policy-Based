@@ -52,7 +52,6 @@ La topología está compuesta por dos sitios:
 ```text
 VPN-IKEv2-Policy-Based/
 ├── README.md
-├── enlaces.txt
 ├── configs/
 │   ├── R1.cfg
 │   ├── R2.cfg
@@ -79,7 +78,6 @@ Las configuraciones completas de cada equipo están dentro de la carpeta [`confi
 
 La documentación técnica profesional está disponible en [`docs/Documentacion Tecnica Profesional.pdf`](docs/Documentacion%20Tecnica%20Profesional.pdf).
 
-El archivo [`enlaces.txt`](enlaces.txt) contiene el enlace del repositorio en GitHub y el enlace del video demostrativo en YouTube.
 
 ---
 
